@@ -6,9 +6,8 @@
       "framework": "vite"
     },
     "backend": {
-      "entrypoint": "backend/server.js",
-      "routePrefix": "/_/backend",
-      "runtime": "@vercel/node"
+      "entrypoint": "backend",
+      "routePrefix": "/_/backend"
     }
   }
 }
